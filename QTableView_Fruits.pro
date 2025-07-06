@@ -26,3 +26,16 @@ FORMS += \
 qnx: target.path = /tmp/$${TARGET}/bin
 else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
+
+DISTFILES += \
+    Ob2.txt \
+    TOb1.txt \
+    TOb2.txt \
+    build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/debug/Ob1.txt \
+    build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/debug/Ob1.txt \
+    build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/debug/Ob2.txt \
+    build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/debug/Ob2.txt \
+    build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/debug/TOb1.txt \
+    build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/debug/TOb1.txt \
+    build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/debug/TOb2.txt \
+    build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/debug/TOb2.txt
